@@ -119,12 +119,3 @@ O Bloqueio de Recursos impede a exclusão ou modificação acidental de recursos
 4. **Privilégio Mínimo**: Aplique o princípio do privilégio mínimo ao atribuir acessos.
 5. **Monitoramento Contínuo**: Utilize ferramentas de monitoramento para identificar e responder a anomalias rapidamente.
 
----
-
-## 11. Recursos Adicionais 📚
-
-- [Documentação Oficial do Azure sobre Políticas](https://docs.microsoft.com/azure/governance/policy/overview)
-- [Tutorial de Implementação de Políticas](https://docs.microsoft.com/azure/role-based-access-control/role-assignments-portal)
-- [Azure Policy Samples](https://docs.microsoft.com/azure/governance/policy/samples/)
-
-Ao seguir este guia abrangente, você estará bem equipado para gerenciar eficazmente as políticas de acesso no Azure, garantindo a segurança e conformidade de sua infraestrutura na nuvem.
