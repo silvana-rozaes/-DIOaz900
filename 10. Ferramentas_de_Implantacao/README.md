@@ -1,4 +1,4 @@
-# Ferramentas de Implantação e Gerenciamento no Azure: Um Guia Abrangente 🚀
+# Ferramentas de Implantação e Gerenciamento no Azure: Um Guia Abrangente
 
 ---
 
