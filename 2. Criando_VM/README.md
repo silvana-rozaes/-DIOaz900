@@ -1,33 +1,33 @@
-# 🚀 Guia Completo para Criar uma Máquina Virtual no Azure
+# Guia Completo para Criar uma Máquina Virtual no Azure
 
 Este guia passo a passo irá ajudá-lo a criar e configurar uma Máquina Virtual (VM) no Azure utilizando o Portal do Azure. Siga as instruções abaixo e aproveite o poder da nuvem para hospedar seus aplicativos e recursos!
 
 ---
 
-## 🎯 Pré-requisitos
+## Pré-requisitos
 
 Antes de começar, certifique-se de que você tem:
 
-1. Uma [conta do Azure](https://azure.microsoft.com/free/) ativa.
-2. Acesso ao [Portal do Azure](https://portal.azure.com/).
+1. Uma https://azure.microsoft.com/free/ ativa.
+2. Acesso ao https://portal.azure.com/.
 
 ---
 
-## 🖥️ Passo 1: Acesse o Portal do Azure
+##  Passo 1: Acesse o Portal do Azure
 
-1. Navegue até o [Portal do Azure](https://portal.azure.com/) e faça login com suas credenciais.
+1. Navegue até o https://portal.azure.com/ e faça login com suas credenciais.
 2. No painel principal, digite **"Máquinas Virtuais"** na barra de pesquisa e clique no resultado correspondente.
 
 ---
 
-## 🛠️ Passo 2: Criando uma Máquina Virtual
+##  Passo 2: Criando uma Máquina Virtual
 
 1. Clique em **"Criar"** no topo da página e selecione **"Máquina Virtual"**.
 2. Isso abrirá o assistente de criação, onde você deverá preencher várias informações sobre a nova VM.
 
 ---
 
-## 🔧 Passo 3: Configuração Básica da VM
+## Passo 3: Configuração Básica da VM
 
 ### Informações essenciais
 - **Assinatura**: Selecione a assinatura correta vinculada à sua conta do Azure.
@@ -42,7 +42,7 @@ Antes de começar, certifique-se de que você tem:
 
 ---
 
-## 🔑 Passo 4: Configuração de Autenticação e Acesso
+## Passo 4: Configuração de Autenticação e Acesso
 
 1. **Nome de Usuário**: Defina o nome do administrador da máquina virtual.
 2. **Autenticação**: Escolha entre **Senha** ou **Chave SSH**.
@@ -54,14 +54,14 @@ Antes de começar, certifique-se de que você tem:
 
 ---
 
-## 💾 Passo 5: Configuração de Armazenamento
+## Passo 5: Configuração de Armazenamento
 
 1. **Tipo de Disco do Sistema Operacional**: Escolha entre **SSD Premium**, **SSD Padrão** ou **HDD Padrão**, conforme o desempenho necessário.
 2. **Discos de Dados**: Adicione discos adicionais, se necessário, clicando em **Criar e anexar novo disco**.
 
 ---
 
-## 🌐 Passo 6: Configuração de Rede
+## Passo 6: Configuração de Rede
 
 1. **Rede Virtual**: Selecione uma rede virtual existente ou crie uma nova.
 2. **Sub-rede**: Escolha ou crie uma sub-rede para a VM.
@@ -70,7 +70,7 @@ Antes de começar, certifique-se de que você tem:
 
 ---
 
-## 📝 Passo 7: Revisar e Criar
+## Passo 7: Revisar e Criar
 
 1. Clique em **Revisar + Criar** para revisar todas as configurações.
 2. Verifique se todas as informações estão corretas.
@@ -95,24 +95,8 @@ Antes de começar, certifique-se de que você tem:
 
 ---
 
-## 🔒 Dicas de Segurança
+## Dicas de Segurança
 
 - Utilize sempre **senhas fortes** ou **chaves SSH** para aumentar a segurança de acesso à VM.
 - Defina regras claras no **NSG** para limitar as portas de entrada e proteger sua infraestrutura.
 - Considere o uso de backups regulares e ative diagnósticos de monitoramento para garantir o bom funcionamento da VM.
-
----
-
-## 🏁 Conclusão
-
-Parabéns! 🎉 Você criou e acessou sua máquina virtual no Azure com sucesso. Agora, sua VM está pronta para ser usada para desenvolvimento, testes ou como um servidor de produção.
-
-Para mais informações e configurações avançadas, consulte a [documentação oficial do Azure](https://docs.microsoft.com/azure/virtual-machines/). 
-
----
-
-## 📚 Recursos Adicionais
-
-- [Documentação do Azure](https://docs.microsoft.com/azure/virtual-machines/)
-- [Suporte da Comunidade Microsoft](https://docs.microsoft.com/answers/)
-- [Treinamentos Gratuitos no Microsoft Learn](https://learn.microsoft.com/training/)
