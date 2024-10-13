@@ -1,28 +1,26 @@
 # Guia Completo: Configurando e Dimensionando Máquinas Virtuais no Azure
 
-Este guia detalhado foi elaborado para ajudá-lo a criar, configurar e dimensionar suas máquinas virtuais (VMs) no Azure de forma eficiente, garantindo que os recursos utilizados atendam perfeitamente às suas necessidades de desempenho e custo.
-
 ---
 
 ## Pré-requisitos
 
 Antes de iniciar, certifique-se de ter:
 
-1. Uma **conta ativa no Azure**. Caso não tenha, você pode [criar uma aqui](https://azure.microsoft.com/free/).
-2. Acesso ao [Portal do Azure](https://portal.azure.com).
-3. Permissões necessárias para **criar e gerenciar** VMs na sua assinatura.
-4. Uma ideia clara da carga de trabalho e do **dimensionamento** esperado para sua aplicação.
+1. Uma conta ativa no Azure. Caso não tenha, você pode https://azure.microsoft.com/free.
+2. Acesso ao https://portal.azure.com.
+3. Permissões necessárias para criar e gerenciar VMs na sua assinatura.
+4. Uma ideia clara da carga de trabalho e do dimensionamento esperado para sua aplicação.
 
 ---
 
-## Passo 1: Acessar o Portal do Azure 🌐
+## Passo 1: Acessar o Portal do Azure 
 
-1. Acesse o [Portal do Azure](https://portal.azure.com) e faça login com suas credenciais.
+1. Acesse o https://portal.azure.com e faça login com suas credenciais.
 2. No painel, procure por **Máquinas Virtuais** ou clique em **Criar Recurso** para iniciar a criação de uma nova VM.
 
 ---
 
-## Passo 2: Criar a Máquina Virtual 🖥️
+## Passo 2: Criar a Máquina Virtual 
 
 1. Selecione uma **assinatura** e um **grupo de recursos** existente ou crie um novo.
 2. Defina o **nome da VM** e escolha a **região** mais próxima dos seus usuários para obter melhor performance.
@@ -33,9 +31,7 @@ Antes de iniciar, certifique-se de ter:
   
 ---
 
-## Passo 3: Configurar o Tamanho da Máquina Virtual 📏
-
-O tamanho da VM define a quantidade de CPU, memória e armazenamento temporário disponível. Escolha o tamanho que melhor se ajuste à sua carga de trabalho:
+## Passo 3: Configurar o Tamanho da Máquina Virtual 
 
 - **Tamanhos Gerais**: Adequado para aplicações comuns e balanceadas.
 - **Tamanhos Otimizados para Memória**: Ideal para bancos de dados e aplicações com alta demanda de RAM.
@@ -48,7 +44,7 @@ O tamanho da VM define a quantidade de CPU, memória e armazenamento temporário
 
 ---
 
-## Passo 4: Configurar o Armazenamento 💾
+## Passo 4: Configurar o Armazenamento 
 
 Na aba de **Discos**, você pode selecionar o tipo de disco mais adequado para sua VM:
 
@@ -60,7 +56,7 @@ Você também pode adicionar discos adicionais para separar dados de aplicação
 
 ---
 
-## Passo 5: Configurar a Rede 🌐
+## Passo 5: Configurar a Rede 
 
 Na aba de **Rede**, associe a VM a uma **Rede Virtual (VNet)** existente ou crie uma nova. Além disso, configure as seguintes opções:
 
@@ -70,7 +66,7 @@ Na aba de **Rede**, associe a VM a uma **Rede Virtual (VNet)** existente ou crie
 
 ---
 
-## Passo 6: Configurações de Dimensionamento e Escalabilidade 🔄
+## Passo 6: Configurações de Dimensionamento e Escalabilidade 
 
 ### Escalabilidade Automática (Autoescala)
 
@@ -87,7 +83,7 @@ Caso você prefira um controle mais direto, o Azure permite alterar o tamanho da
 
 ---
 
-## Passo 7: Configurações de Segurança e Monitoramento 🔐
+## Passo 7: Configurações de Segurança e Monitoramento 
 
 ### Segurança
 
@@ -103,24 +99,22 @@ Caso você prefira um controle mais direto, o Azure permite alterar o tamanho da
 
 ---
 
-## Passo 8: Backup e Recuperação 💾
+## Passo 8: Backup e Recuperação 
 
-Configurar backups regulares é fundamental para garantir a recuperação dos dados em caso de falhas. No painel de **Backup**, você pode:
-
-- Habilitar **backup automático**.
-- Definir **políticas de retenção** e **agendamento** de acordo com suas necessidades.
-- Criar um **plano de recuperação** para restaurar dados em cenários de falha.
+- Habilitar backup automático.
+- Definir políticas de retenção e agendamento de acordo com suas necessidades.
+- Criar um plano de recuperação para restaurar dados em cenários de falha.
 
 ---
 
-## Passo 9: Concluir e Criar a Máquina Virtual 🎉
+## Passo 9: Concluir e Criar a Máquina Virtual 
 
 1. Revise todas as configurações de **rede**, **armazenamento** e **dimensionamento** para garantir que tudo está correto.
 2. Clique em **Criar** e aguarde alguns minutos enquanto o Azure provisiona sua máquina virtual.
 
 ---
 
-## Passo 10: Conectar-se à Máquina Virtual 🌐
+## Passo 10: Conectar-se à Máquina Virtual 
 
 - Para VMs **Windows**, utilize o **Remote Desktop (RDP)**.
 - Para VMs **Linux**, utilize **SSH**.
@@ -128,16 +122,10 @@ Configurar backups regulares é fundamental para garantir a recuperação dos da
 
 ---
 
-## Passo 11: Monitorar, Ajustar e Gerenciar a VM 📊
+## Passo 11: Monitorar, Ajustar e Gerenciar a VM 
 
 Após a criação da VM, monitore o desempenho com as ferramentas integradas no Azure:
 
 - **Ajuste o dimensionamento** conforme o uso da VM mude ao longo do tempo.
 - Utilize **métricas de monitoramento** para verificar o uso de CPU, memória e tráfego de rede.
 - Considere adicionar novas VMs ou utilizar um **Balanceador de Carga** para distribuir o tráfego entre instâncias.
-
----
-
-## Conclusão 🎯
- 
-Seguindo este guia, você estará pronto para configurar e gerenciar suas máquinas virtuais no Azure de forma otimizada. Manter suas VMs dimensionadas corretamente é essencial para garantir uma boa performance e controlar os custos operacionais. Para mais informações, consulte a [documentação oficial do Azure](https://docs.microsoft.com/azure/virtual-machines/). 🚀
