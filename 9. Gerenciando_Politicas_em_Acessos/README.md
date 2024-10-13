@@ -1,12 +1,8 @@
-# Guia Completo de Gerenciamento de Políticas de Acesso no Azure 🔐
-
-O gerenciamento eficaz de políticas de acesso no Azure é fundamental para manter a segurança e conformidade em sua organização. Este guia abrangente fornece uma visão detalhada sobre como definir, implementar e gerenciar políticas de acesso no Azure, garantindo que seus recursos sejam utilizados de maneira segura e alinhada com as melhores práticas do setor.
+# Guia Completo de Gerenciamento de Políticas de Acesso no Azure 
 
 ---
 
-## 1. Princípios Fundamentais de Controle de Acesso 🛡️
-
-O controle de acesso no Azure baseia-se em três princípios essenciais:
+## 1. Princípios Fundamentais de Controle de Acesso 
 
 1. **Princípio do Menor Privilégio**: Conceda apenas as permissões estritamente necessárias para que os usuários executem suas funções.
 2. **Identidade e Acesso**: Gerencie identidades através do Azure Active Directory (AAD) para controlar o acesso a recursos de forma centralizada.
@@ -14,7 +10,7 @@ O controle de acesso no Azure baseia-se em três princípios essenciais:
 
 ---
 
-## 2. Controle de Acesso Baseado em Funções (RBAC) 🔑
+## 2. Controle de Acesso Baseado em Funções (RBAC)
 
 O RBAC é o modelo principal de gerenciamento de permissões no Azure. Ele permite atribuir funções específicas a usuários, grupos ou aplicativos, restringindo ou concedendo permissões de forma granular.
 
@@ -32,7 +28,7 @@ O RBAC é o modelo principal de gerenciamento de permissões no Azure. Ele permi
 
 ---
 
-## 3. Definição e Implementação de Políticas 📋
+## 3. Definição e Implementação de Políticas
 
 As políticas no Azure ajudam a impor regras e garantir a conformidade em toda a organização.
 
@@ -48,7 +44,7 @@ As políticas no Azure ajudam a impor regras e garantir a conformidade em toda a
 
 ---
 
-## 4. Azure Active Directory (Azure AD) 👥
+## 4. Azure Active Directory (Azure AD)
 
 O Azure AD é o serviço de gerenciamento de identidade e acesso do Azure, permitindo controlar quem tem acesso a quais recursos.
 
@@ -59,7 +55,7 @@ O Azure AD é o serviço de gerenciamento de identidade e acesso do Azure, permi
 
 ---
 
-## 5. Políticas de Condição de Acesso 🔒
+## 5. Políticas de Condição de Acesso
 
 As políticas de condição de acesso permitem aplicar regras específicas baseadas em condições como localização, dispositivo ou aplicativo utilizado.
 
@@ -72,7 +68,7 @@ As políticas de condição de acesso permitem aplicar regras específicas basea
 
 ---
 
-## 6. Monitoramento, Auditoria e Logs 📊
+## 6. Monitoramento, Auditoria e Logs
 
 O Azure oferece ferramentas robustas para monitorar e auditar atividades de acesso e alterações em políticas de segurança.
 
@@ -83,17 +79,17 @@ O Azure oferece ferramentas robustas para monitorar e auditar atividades de aces
 
 ---
 
-## 7. Portal de Confiança do Azure 🏛️
+## 7. Portal de Confiança do Azure 
 
 O Portal de Confiança do Azure oferece visibilidade e controle sobre a conformidade e segurança dos recursos no Azure.
 
 ### 7.1 Acessando o Portal de Confiança:
-1. Faça login no [Portal de Confiança do Azure](https://servicetrust.microsoft.com/).
+1. Faça login no https://servicetrust.microsoft.com/.
 2. Explore informações sobre certificações, conformidade e práticas recomendadas.
 
 ---
 
-## 8. Preview do Azure 🚀
+## 8. Preview do Azure 
 
 O Preview do Azure permite experimentar novos serviços e funcionalidades antes do lançamento oficial.
 
@@ -103,7 +99,7 @@ O Preview do Azure permite experimentar novos serviços e funcionalidades antes 
 
 ---
 
-## 9. Bloqueio de Recursos 🔐
+## 9. Bloqueio de Recursos
 
 O Bloqueio de Recursos impede a exclusão ou modificação acidental de recursos críticos.
 
@@ -115,7 +111,7 @@ O Bloqueio de Recursos impede a exclusão ou modificação acidental de recursos
 
 ---
 
-## 10. Boas Práticas 👍
+## 10. Boas Práticas
 
 1. **Revisão Regular**: Revise políticas e atribuições de acesso periodicamente.
 2. **Documentação**: Mantenha uma documentação detalhada de todas as políticas implementadas.
